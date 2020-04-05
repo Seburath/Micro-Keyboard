@@ -3,20 +3,6 @@
 // See original thread @ 
 // http://www.lemon64.com/forum/viewtopic.php?t=55650 
 // 
-// Modified to Support restore key & US/EU keymaps by dabone. 
-//
-// Joystick support for keycodes added, and support for second fire button.
-//
-//
-// Wiring is as follows 
-// 64 Keyboard connector has 20 Pins with a key Pin @ Pin 2. 
-// Arduino Pro Micro Pinout 
-// https://cdn.sparkfun.com/assets/9/c/3/c/4/523a1765757b7f5c6e8b4567.png 
-// Board type should be Arduino Leonardo (or the Pro mini clones) 
-
-// Teensy LC Pinout
-// https://www.pjrc.com/teensy/teensyLC.html
-
 //KeyBoard Arduino Pro Micro                       Teensy LC
 //  Pin     Pin     Label                             Pin 
 //   20       5       2 - SDA                          5
@@ -41,8 +27,6 @@
 //   1        11      8 - A8                           8 
 
 
-
-
 // The following pins are optional and not required for keyboard only usage.
 
 //   Joysticks
@@ -59,11 +43,9 @@
 //   8        2       0 - RX                           2
 
 
-
-
-#include <HID.h>                                    // Comment out for Teensey
-#include <Keyboard.h>                               // Comment out for Teensey
-#include "keydefs.h"                                // Comment out for Teensey
+#include <HID.h>
+#include <Keyboard.h>
+#include "keydefs.h"
 
 int inChar=0;
 int keyPos=0;
