@@ -64,8 +64,6 @@ int ColPinMap[10] = {10, 16, 14, 21, 18, 19, 20, 15, 1, 0};                 // C
 //int ColPinMap[10] = {13, 14, 15, 20, 17, 18, 19, 16, 1, 2};                   // Convert Col number to associated input pin  -- Uncomment For Teensey LC
 
 
-
-
 // Keyboard Matrix Now Matches real C64 with two more columns.
 // Matrix can be found at 
 // http://sta.c64.org/cbm64kbdlay.html
