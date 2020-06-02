@@ -70,7 +70,7 @@ int ColPinMap[10] = {10, 16, 14, 21, 18, 19, 20, 15, 1, 0};                 // C
 
 
 uint16_t keyMap[80]={
-//Keymap                                              // Joystick Keys are the indicated by JoyNumber(Direction), i.e Joy1UP is up on joystick one.
+                                                      // Joystick Keys are the indicated by JoyNumber(Direction), i.e Joy1UP is up on joystick one.
                                                       // Firebuttons are Noted JoyF(Joystick number)- Fire Button number, i.e Joy2F1 Joystick 2, fire button 1, Joy2F2 Joystick 2, fire button 2.
                                                       // Current values for the Joysticks are located at the end of each line. KP stands for numeric keypad inputs.
 
