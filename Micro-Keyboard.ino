@@ -2,7 +2,7 @@
 // Original by Pyofer 
 // See original thread @ 
 // http://www.lemon64.com/forum/viewtopic.php?t=55650 
-// 
+
 //KeyBoard Arduino Pro Micro                       Teensy LC
 //  Pin     Pin     Label                             Pin 
 //   20       5       2 - SDA                          5
